@@ -10,4 +10,4 @@ def secondpage():
     return "page2"
 
 if __name__ == '__main__':
-    app.run(host='10.100.58.236')
+    app.run(host='0.0.0.0', port=3333)
